@@ -1,0 +1,28 @@
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &:hover {
+    background-color: #0dcaf0;
+    color: #fff;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+.close-btn {
+  float: right;
+  button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    outline: none;
+  }
+}
+.thourghLine {
+  text-decoration: line-through red;
+  text-decoration-thickness: 1.5px;
+  color: gray;
+}
